@@ -1,0 +1,81 @@
+/* src/ListContainer.css */
+
+  
+ 
+  
+.list-item {
+    border: 1px solid #ccc; /* Add border or other styles as needed */
+    padding: 10px;
+    margin-bottom: 10px; /* Add margin between list items */
+  }
+
+  /* ListContainer.css */
+
+.list-creation-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .blue-button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .blue-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .list-container1 {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    height:700px;
+    padding-bottom: 20px;
+   
+  }
+  
+  .list-column1 {
+    background-color:  #d7e3f5;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    flex-grow: 1;
+    width: 65%;
+    height:700px;
+ 
+  }
+  
+  
+  
+  .list-item {
+    background-color: white;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .small-text {
+    font-size: 12px;
+  }
+  
+  .list-column:nth-child(2) {
+  background-color: #d7e3f5; /* Set background color for the second list-column */
+}
+
+/* Customize scrollbar styles */
+.list-column::-webkit-scrollbar {
+  width: 8px;
+}
+
+.list-column::-webkit-scrollbar-thumb {
+  background-color: #4b6cb7;
+}
+  
+  

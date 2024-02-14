@@ -1,0 +1,67 @@
+
+.list-container {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    height:750px;
+    padding-bottom: 20px;
+  }
+  
+  .list-column {
+    background-color:  #d7e3f5;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 10px;
+    flex-grow: 1;
+    width: 65%;
+    height:700px;
+  }
+  
+  .scrollable-list {
+    max-height: 640px; /* Increased max height */
+    overflow-y: auto;
+  }
+  
+  .list-item {
+    background-color: white;
+    padding: 5px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .small-text {
+    font-size: 12px;
+  }
+  
+  
+
+  .button-container {
+    display: flex;
+    justify-content: center; /* Center the buttons */
+    align-items: flex-end; /* Align items to the bottom */
+    margin-top: 10px; /* Add some margin at the top */
+    position:fixed; /* Position the buttons */
+    bottom: 0; /* Align to the bottom */
+    width: 100%; /* Full width */
+    background-color: white; /* Background color for the button container */
+    padding: 10px; /* Add padding */
+  }
+  .cancel-button,
+  .update-button {
+    padding: 8px 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px; /* Add border-radius to make the edges curved */
+  }
+  
+  .cancel-button {
+    background-color: #fff; /* White background */
+    color: #000; /* Black text */
+    border: 1px solid #000; /* Black border */
+  }
+  
+  .update-button {
+    background-color: blue; /* Blue background */
+    color: #fff; /* White text */
+  }
